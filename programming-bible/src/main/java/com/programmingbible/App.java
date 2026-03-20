@@ -10,6 +10,7 @@ import com.programmingbible.dsa.hashtable.GroupAnagrams;
 import com.programmingbible.dsa.hashtable.TwoSumHashMap;
 import com.programmingbible.dsa.linkedlist.ReverseLinkedList;
 import com.programmingbible.dsa.linkedlist.ReverseLinkedList.ListNode;
+import com.programmingbible.dsa.slidingwindow.BestTimeToBuyAndSellStock;
 
 /**
 MAKE GENERIC TYPE FOR USE ACROSS CLASSES with data type declaration.
@@ -45,6 +46,10 @@ public class App {
         ReverseLinkedList reverseList = new ReverseLinkedList();
         ListNode dummyNode = new ListNode(11, null);
         System.out.println(reverseList.reverseList((dummyNode)));
+
+        BestTimeToBuyAndSellStock buySellStock = new BestTimeToBuyAndSellStock();
+        int [] prices = new int[]{10,3,15,12,12,18,16};
+        System.out.println(buySellStock.maxProfit(prices));
         
 
     }
