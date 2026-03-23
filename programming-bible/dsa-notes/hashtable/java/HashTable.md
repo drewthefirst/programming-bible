@@ -201,7 +201,7 @@ public class MyHashMap {
 <details>
 <summary><strong>LeetCode Problems</strong></summary>
 
-## LeetCode Problems
+## 🧠 LeetCode Problems
 
 | Problem Name            | Difficulty | Pattern / Technique              | Time / Space Complexity | Key Insight                                                                 | Link |
 |------------------------|------------|----------------------------------|--------------------------|-------------------------------------------|------|
